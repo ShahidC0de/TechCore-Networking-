@@ -1,0 +1,13 @@
+Test ID,Source,Destination / action,Expected,Actual,Status,Screenshot filename,Notes
+T-10-01,VLAN 10 PC,ping 192.168.10.1,Success,,Not recorded,,
+T-10-02,VLAN 10 PC,Open http://intranet.techcore.test,Intranet loads,,Not recorded,,
+T-20-01,VLAN 20 PC,ping 192.168.20.1,Success,,Not recorded,,
+T-20-02,VLAN 20 PC,Open http://intranet.techcore.test,Intranet loads,,Not recorded,,
+T-30-01,VLAN 30 PC,ping 192.168.30.1,Success,,Not recorded,,
+T-30-02,VLAN 30 PC,Open http://intranet.techcore.test,Intranet loads,,Not recorded,,
+T-40-01,VLAN 40 PC,ping 192.168.40.1,Success,,Not recorded,,
+T-40-02,VLAN 40 PC,Open http://intranet.techcore.test,Intranet loads,,Not recorded,,
+T-CROSS,IT PC,ping 192.168.20.x,Success,,Not recorded,,Replace x with actual lease
+T-CROSS,IT PC,ping 192.168.30.x,Success,,Not recorded,,Replace x with actual lease
+T-CROSS,IT PC,ping 192.168.40.x,Success,,Not recorded,,Replace x with actual lease
+T-SEC-01,Server,Confirm static IP and excluded/reserved address,No DHCP overlap,,Not recorded,,Currently reported at 192.168.10.22
